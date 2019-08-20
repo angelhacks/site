@@ -13,7 +13,7 @@ export default ({
     <meta name="og:url" content={url} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="AngelHacks" />
-    <meta name="twitter:site" content="@angelhacks" />
+    <meta name="twitter:site" content="@angelhacks_la" />
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
     <meta name="twitter:description" content={description} />
