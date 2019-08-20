@@ -1,0 +1,162 @@
+import { Banner, List, Container, Callout, Gallery, FAQ, Team } from '../components/blocks'
+import { Box, Button } from 'rebass'
+import Link from 'next/link'
+// import CTA from '../components/cta'
+import Sponsors from '../components/sponsors'
+import Photo from '../components/photo'
+
+<Banner>
+
+# AngelHacks
+
+## High schoolers: learn to code in 24 hours of free food & fun.
+
+October 26, 2019 @ Snapchat HQ in LA
+
+<Link href="/register">
+  <Button
+    as="a"
+    sx={{
+      bg: 'accent',
+      color: 'white',
+      borderRadius: 'circle',
+      fontFamily: 'inherit',
+      fontSize: [2, 3],
+      lineHeight: 2,
+      cursor: 'pointer',
+      px: 4,
+      mt: [3, 4],
+      transition: 'transform ease .125s',
+      ':hover, :focus': {
+        transform: 'scale(1.0625)'
+      }
+    }}>
+    Register now »
+  </Button>
+</Link>
+
+</Banner>
+
+<Container
+  width="narrow"
+  sx={{
+    p: {
+      fontSize: [2, 3, 4],
+      color: 'muted',
+      mb: [4, 5],
+      lineHeight: 1.375,
+      letterSpacing: '-.009em'
+    },
+    strong: {
+      fontWeight: 'medium',
+      color: 'text'
+    }
+  }}>
+
+**AngelHacks is a 24-hour hackathon.**
+50 students from across LA will come for the weekend.
+You’ll work with a team to build an app, game, or website.
+We’ll provide free meals & drinks. In the morning, judges will pick
+the best projects to demo for everyone and win prizes.
+**You’ll meet people, create amazing new things, & have fun.**
+
+</Container>
+
+<Gallery>
+
+<Photo alt="Collaborating" src="https://cdn.glitch.com/3d283e0f-19c4-4546-b0b2-223ec3a7dc23%2Fcollaborating.jpg?v=1565769226508" />
+<Photo showAlt alt="Students build projects in groups" src="https://cdn.glitch.com/3d283e0f-19c4-4546-b0b2-223ec3a7dc23%2Fworking.jpg?v=1565769221347" />
+
+<Box variant="card">
+
+## A place for everyone.
+
+Underrepresented students are systematically discouraged from pursuing tech. AngelHacks provides a supportive community for women, minorities, & LGBTQ+ students, and gives them the resources to make amazing things. No matter who you are, you’re welcome here—and you’ll surprise yourself by what you can accomplish. 💛
+
+</Box>
+
+<Photo showAlt alt="Workshops teach intro coding skills" src="https://cdn.glitch.com/3d283e0f-19c4-4546-b0b2-223ec3a7dc23%2Fworkshop.jpg?v=1565769230073" />
+
+</Gallery>
+
+<Container>
+
+## FAQ
+
+<Callout sx={{ mx: [null, null, -3, -4] }}>
+<FAQ>
+
+- **How much does it cost?**
+  Nothing! Registration and attendance are 100% free, with meals, drinks, swag, & workshops included.
+
+- **Who can participate?**
+  Any current student grades 8–12. If you’re under/over that age, send us a chat message (in the bottom right corner) & we’ll see what we can do.
+
+- **Hacking‽ Is that safe?**
+  No, we’re not “hacking” servers. The word is being constructively redefined for coding—apps, games, websites. It’s safe, supervised, & entirely educational.
+
+- **What can I make?**
+  Anything! A website, app, game, hardware hack, you name it. Judges will rate projects on creativity, technical skill demonstrated, polish, and utility.
+
+- **What if I’m new to coding?**
+  At AngelHacks, complete beginners are not only welcome, but expected! Learn as you go with our intro workshops & mentors.
+
+- **Do I need a team?**
+  Nope! You’ll have an opportunity to meet fellow hackers and make teams of up to 4—find some new friends, bring yours, or work alone.
+
+- **What should I bring?**
+  Plan to bring a student ID, computer (any kind), chargers, anything for your hack (e.g. hardware), toiletries, & a sleeping bag (if you plan on sleeping).
+
+- **Who runs this? Is it supervised?**
+  We’re independently-organized by high schoolers, sponsored via a nonprofit called [Hack Club](https://hackclub.com/). It’s fully supervised by 20+ adult mentors & chaperones.
+
+</FAQ>
+</Callout>
+
+## Sponsors
+
+<Sponsors />
+
+### Additional support from
+
+<Sponsors section="additionalSupport" />
+
+## Team
+
+AngelHacks is primarily run by the Hack Club at [Ad Astra](https://www.washingtonpost.com/technology/2018/06/27/elon-musk-created-secretive-laboratory-school-brilliant-kids-who-love-flamethrowers/).
+
+<Team sx={{ mt: [3, 4] }}>
+
+- ![Claire](https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fclaire.jpg?v=1566231402289)
+
+  **Claire Wang** _Founder, lead. she/her_
+
+- ![Kai](https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fclaire.jpg?v=1566231402289)
+
+  **Kai Musk** _Marketing. he/him_
+
+- ![Damian](https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fclaire.jpg?v=1566231402289)
+
+  **Damian Musk** _Operations. he/him_
+
+</Team>
+
+### Special thanks
+
+<Team sx={{ mb: [4, 5] }}>
+
+- ![Yasper](https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fyasper.jpg?v=1566231402509)
+
+  **Yasper DeJong** _Local coordination. he/him_
+
+- ![Evan](https://github.com/pErs0nZ.png)
+
+  **Evan Nishi** _Advisor. he/him_
+
+- ![Neel](https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fneel.jpg?v=1566231402477)
+
+  **Neel Redkar** _XYZ. he/him_
+
+</Team>
+
+</Container>
