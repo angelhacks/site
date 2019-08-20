@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
 export default ({
-  title = 'AngelHacks – PA’s largest high school hackathon',
-  description = 'November 2019, 111 hackers came together for Pennsylvania’s largest high school hackathon ever.',
-  image = 'https://2019.hackpenn.com/card.png',
+  title = 'AngelHacks – Dedicated to giving back!',
+  description = 'A 12-hour hackathon for middle and high schoolers in Los Angeles.',
+  image = 'https://angelhacks.org/static/banner-inverted.png',
   url = 'https://angelhacks.org'
 }) => (
   <Head>
@@ -51,13 +51,13 @@ export default ({
         __html: JSON.stringify({
           '@context': 'http://schema.org/',
           '@type': 'Event',
-          name: 'Windy City Hacks',
-          startDate: '2019-06-22T12:00',
-          endDate: '2019-06-23T12:00',
+          name: 'AngelHacks',
+          startDate: '2019-10-26T9:00',
+          endDate: '2019-10-26T9:00',
           description:
             'Register today for 24 hours of coding, fun, free food, and prizes. Windy City Hacks returns June 22, 2019.',
           isAccessibleForFree: true,
-          url: 'https://windyhacks.com',
+          url: 'https://angelhacks.org',
           image: 'https://windyhacks.com/flag-alt-teal.png',
           location: {
             '@type': 'Place',
