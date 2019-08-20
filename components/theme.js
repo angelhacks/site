@@ -159,6 +159,7 @@ const theme = merge(base, {
       cursor: 'pointer',
       borderRadius: 'circle',
       fontWeight: 'medium',
+      fontSize: 3,
       lineHeight: 'body',
       textDecoration: 'none',
       py: 1,
