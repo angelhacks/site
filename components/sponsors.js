@@ -10,12 +10,14 @@ const data = {
     {
       name: 'Repl.it',
       link: 'https://repl.it',
-      image: 'https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Freplit.png?v=1566159656031'
+      image:
+        'https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Freplit.png?v=1566159656031'
     },
     {
       name: 'Hack Club Bank',
       link: 'https://hackclub.com/bank',
-      image: 'https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fhackclub-bank.svg?v=1566159701206'
+      image:
+        'https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fhackclub-bank.svg?v=1566159701206'
     }
   ],
   additionalSupport: [
@@ -32,10 +34,7 @@ const Base = styled(Box)`
   grid-row-gap: ${theme.space[2]}px;
   grid-template-columns: repeat(
     auto-fit,
-    minmax(
-      ${props => (props.section === 'sponsors' ? 256 : 192)}px,
-      1fr
-    )
+    minmax(${props => (props.section === 'sponsors' ? 256 : 192)}px, 1fr)
   );
   align-items: center;
   justify-content: center;
@@ -57,10 +56,7 @@ const Sponsors = ({ section = 'sponsors', ...props }) => {
     <Base colorMode={colorMode} section={section} {...props}>
       {data[section].map(sponsor => (
         <a href={sponsor.link} target="_blank" key={sponsor.name}>
-          <img
-            alt={sponsor.name}
-            src={sponsor.image}
-          />
+          <img alt={sponsor.name} src={sponsor.image} />
         </a>
       ))}
     </Base>

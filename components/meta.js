@@ -40,9 +40,8 @@ export default ({
             contactType: 'customer support',
             url: 'https://hackpenn.com'
           }
-        ]
-      })}}
+        })
+      }}
     />
   </Head>
 )
-

@@ -143,7 +143,7 @@ export const FAQ = props => (
         textDecoration: 'none'
       },
       li: {
-        fontSize: [1, null, 2],
+        fontSize: [1, null, 2]
       },
       p: { my: 0 },
       strong: {
@@ -166,7 +166,7 @@ export const Gallery = props => (
       px: [3, 4, null, 5],
       mb: [3, 4, 5, 6],
       'p, li': {
-        fontSize: 2,
+        fontSize: 2
       },
       '> div': {
         display: 'flex',
@@ -235,7 +235,7 @@ export const Team = props => (
   />
 )
 
-export const Header = ({ width = 'container', sx, ...props }) => 
+export const Header = ({ width = 'container', sx, ...props }) => (
   <Box
     {...props}
     sx={{
@@ -258,8 +258,9 @@ export const Header = ({ width = 'container', sx, ...props }) =>
   >
     <Box variant="container" width={width} {...props} />
   </Box>
+)
 
-export const Schedule = props =>
+export const Schedule = props => (
   <Box
     {...props}
     variant="container"
@@ -284,3 +285,4 @@ export const Schedule = props =>
       }
     }}
   />
+)

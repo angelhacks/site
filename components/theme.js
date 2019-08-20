@@ -67,7 +67,8 @@ const theme = merge(base, {
     }
   },
   fonts: {
-    body: 'Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif',
+    body:
+      'Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif',
     heading: 'inherit',
     mono: 'Menlo, monospace'
   },

@@ -10,10 +10,12 @@ const Caption = styled(Text)`
   padding: ${theme.space[2]}px ${theme.space[3]}px;
   position: absolute;
   ${props =>
-    props.captionTop ? `
+    props.captionTop
+      ? `
       top: 0;
       border-radius: ${theme.radii.extra}px ${theme.radii.extra}px 0 0;
-    ` : `
+    `
+      : `
       bottom: 0;
       border-radius: 0 0 ${theme.radii.extra}px ${theme.radii.extra}px;
     `};
