@@ -1,13 +1,32 @@
-import base from '@rebass/preset'
-import { merge } from 'lodash'
+webpackHotUpdate("static/development/pages/index.js",{
 
-export const breakpoints = [32, 48, 64].map(w => `${w}em`)
+/***/ "./components/theme.js":
+/*!*****************************!*\
+  !*** ./components/theme.js ***!
+  \*****************************/
+/*! exports provided: breakpoints, space, fontSizes, palette, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-export const space = [0, 4, 8, 16, 32, 64, 128, 256, 512]
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "breakpoints", function() { return breakpoints; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "space", function() { return space; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fontSizes", function() { return fontSizes; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "palette", function() { return palette; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
+/* harmony import */ var _rebass_preset__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @rebass/preset */ "./node_modules/@rebass/preset/dist/index.js");
+/* harmony import */ var _rebass_preset__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_rebass_preset__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);
 
-export const fontSizes = [14, 16, 20, 24, 32, 48, 64, 96, 128]
 
-export const palette = {
+
+var breakpoints = [32, 48, 64].map(function (w) {
+  return "".concat(w, "em");
+});
+var space = [0, 4, 8, 16, 32, 64, 128, 256, 512];
+var fontSizes = [14, 16, 20, 24, 32, 48, 64, 96, 128];
+var palette = {
   darker: '#121217',
   dark: '#17171d',
   darkless: '#252429',
@@ -34,15 +53,13 @@ export const palette = {
   error: '#b23f42',
   cool: '#00bdde',
   coolWash: '#7cecff'
-}
-
-const theme = merge(base, {
-  breakpoints,
-  space,
-  fontSizes,
+};
+var theme = Object(lodash__WEBPACK_IMPORTED_MODULE_2__["merge"])(_rebass_preset__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  breakpoints: breakpoints,
+  space: space,
+  fontSizes: fontSizes,
   initialColorMode: 'light',
-  colors: {
-    ...palette,
+  colors: Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, palette, {
     text: palette.black,
     background: palette.snow,
     elevated: palette.white,
@@ -65,10 +82,9 @@ const theme = merge(base, {
         coolBg: palette.dark
       }
     }
-  },
+  }),
   fonts: {
-    body:
-      'Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif',
+    body: 'Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif',
     heading: 'inherit',
     mono: 'Menlo, monospace'
   },
@@ -94,7 +110,7 @@ const theme = merge(base, {
     wide: 1536
   },
   radii: {
-    default: 6,
+    "default": 6,
     extra: 9,
     circle: 99999
   },
@@ -171,6 +187,10 @@ const theme = merge(base, {
       }
     }
   }
-})
+});
+/* harmony default export */ __webpack_exports__["default"] = (theme);
 
-export default theme
+/***/ })
+
+})
+//# sourceMappingURL=index.js.7985030540a112f5f098.hot-update.js.map

@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
 export default ({
-  title = 'AngelHacks – PA’s largest high school hackathon',
-  description = 'November 2019, 111 hackers came together for Pennsylvania’s largest high school hackathon ever.',
-  image = 'https://2019.hackpenn.com/card.png',
+  title = 'AngelHacks – Dedicated to giving back!',
+  description = 'A 12-hour hackathon for middle and high schoolers in Los Angeles.',
+  image = './static/banner-inverted.png',
   url = 'https://angelhacks.org'
 }) => (
   <Head>
