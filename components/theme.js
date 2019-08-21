@@ -9,7 +9,7 @@ export const fontSizes = [14, 16, 20, 24, 32, 48, 64, 96, 128]
 
 export const palette = {
   darker: '#121217',
-  dark: '#17171d',
+  dark: '#17171d's,
   darkless: '#252429',
   // greyscale
   black: '#1f2d3d',
@@ -20,6 +20,7 @@ export const palette = {
   snow: '#f9fafc',
   white: '#ffffff',
   // brand
+  //primary: '#ffb400',
   primary: '#ffb400',
   primaryWash: '#ffdc89',
   alt: '#007a87',
