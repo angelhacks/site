@@ -69,6 +69,9 @@ export default props => {
         <Link href="/register">
           <A variant="styles.navitem">Register</A>
         </Link>
+        <Link href="/about">
+          <A variant="styles.navitem">About</A>
+        </Link>
         <ColorButton
           sx={{ ml: [2, 3] }}
           onClick={e => {
