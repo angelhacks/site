@@ -48,7 +48,8 @@ const theme = merge(base, {
     elevated: palette.white,
     muted: palette.muted,
     sunken: palette.smoke,
-    bannerBG: palette.primary,
+    //bannerBG: palette.primary,
+    bannerBG: palette.altLight,
     bannerColor: palette.white,
     bannerColorAlt: palette.white,
     coolBg: palette.cool,
@@ -60,7 +61,8 @@ const theme = merge(base, {
         sunken: palette.black,
         primaryWash: '#3f3822',
         bannerBG: palette.darkless,
-        bannerColor: palette.primary,
+        //bannerColor: palette.primary,
+        bannerColor: palette.coolWash,
         bannerColorAlt: palette.white,
         coolBg: palette.dark
       }

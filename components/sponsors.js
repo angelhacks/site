@@ -42,7 +42,8 @@ const data = {
     {
       name: 'Sketch',
       link: 'https://sketchapp.com/',
-      image: 'https://angelhacks.org/images/sketch-logo.png'
+      image: 
+        'https://angelhacks.org/static/sketch-logo.png'
     }
   ]
 }

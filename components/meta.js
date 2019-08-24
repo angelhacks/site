@@ -53,21 +53,21 @@ export default ({
           '@type': 'Event',
           name: 'AngelHacks',
           startDate: '2019-10-26T9:00',
-          endDate: '2019-10-26T9:00',
+          endDate: '2019-10-26T21:00',
           description:
-            'Register today for 24 hours of coding, fun, free food, and prizes. Windy City Hacks returns June 22, 2019.',
+            'Register today for 12 hours of coding, fun, free food, and prizes. AngelHacks will be on October 26, 2019 and open to all middle and high school students.',
           isAccessibleForFree: true,
           url: 'https://angelhacks.org',
-          image: 'https://windyhacks.com/flag-alt-teal.png',
+          image: 'https://angelhacks.org/static/logo-inverted.png',
           location: {
             '@type': 'Place',
-            name: 'Origami Risk',
+            name: 'Snapchat Headquarters',
             address: {
               '@type': 'PostalAddress',
-              addressLocality: 'Chicago',
-              addressRegion: 'IL',
-              postalCode: '60601',
-              streetAddress: '222 N LaSalle St #2125'
+              addressLocality: 'Los Angeles',
+              addressRegion: 'CA',
+              postalCode: '90405',
+              streetAddress: '2772 Donald Douglas Loop N'
             }
           },
           sponsor: {
@@ -78,7 +78,7 @@ export default ({
           offers: {
             '@type': 'Offer',
             name: 'Free Admission',
-            url: 'https://windyhacks.com',
+            url: 'https://angelhacks.com',
             price: '0',
             priceCurrency: 'USD',
             availability: 'https://schema.org/InStock',
@@ -87,7 +87,7 @@ export default ({
           },
           performer: {
             '@type': 'PerformingGroup',
-            name: 'Windy City Hacks Team'
+            name: 'AngelHacks Ad Astra Team'
           }
         })
       }}

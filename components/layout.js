@@ -146,7 +146,7 @@ export default props => {
               sx={{
                 color: 'muted',
                 fontSize: 0,
-                mt: 2,
+                mt: 1,
                 mb: 0
               }}
             >
