@@ -22,6 +22,7 @@ export const palette = {
   // brand
   primary: '#ffb400',
   primaryWash: '#ffdc89',
+  /*
   alt: '#007a87',
   altWash: '#bfe6ea',
   altWashLight: '#dffbfd',
@@ -35,6 +36,21 @@ export const palette = {
   error: '#b23f42',
   cool: '#00bdde',
   coolWash: '#7cecff'
+  */
+  alt: '#13cfbf',
+  altDark: '#05386b',
+  altLight: '#6ed5fa',
+  altWash: '#379683',
+  altWashLight: '#9cf0df',
+  accent: '#5cdb95',
+  accentWash: '#befad9',
+  accentLight: '#8ee4af',
+  accentDark: '#189975',
+  success: '#3fb34f',
+  error: '#b23f42',
+  cool: '#00bdde',
+  coolWash: '#7cecff',
+  lemonade: '#ff5a5f'
 }
 
 const theme = merge(base, {
@@ -50,10 +66,11 @@ const theme = merge(base, {
     muted: palette.muted,
     sunken: palette.smoke,
     //bannerBG: palette.primary,
-    bannerBG: palette.altLight,
+    bannerBG: palette.alt,
     bannerColor: palette.white,
     bannerColorAlt: palette.white,
     coolBg: palette.cool,
+    cards: palette.smoke,
     modes: {
       dark: {
         text: palette.white,
@@ -65,7 +82,8 @@ const theme = merge(base, {
         //bannerColor: palette.primary,
         bannerColor: palette.coolWash,
         bannerColorAlt: palette.white,
-        coolBg: palette.dark
+        coolBg: palette.dark,
+        cards: palette.darkless,
       }
     }
   },
