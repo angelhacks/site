@@ -26,20 +26,20 @@ export default ({
         __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'Organization',
-          name: 'hackpenn',
-          url: 'https://hackpenn.com',
-          logo: 'https://2019.hackpenn.com/flag.png',
+          name: 'angelhacks',
+          url: 'https://angelhacks.org',
+          logo: 'https://angelhacks.org/logo_inverted.png',
           sameAs: [
-            'https://twitter.com/hackpenn',
+            'https://twitter.com/angelhacks_la',
             'https://www.instagram.com/angelhacks.la',
-            'https://www.facebook.com/hackpenn'
+            'https://www.facebook.com/angelhacks_la'
           ],
           contactPoint: [
             {
               '@type': 'ContactPoint',
-              email: 'contact@hackpenn.com',
+              email: 'hello@angelhacks.org',
               contactType: 'customer support',
-              url: 'https://hackpenn.com'
+              url: 'https://angelhacks.org'
             }
           ]
         })

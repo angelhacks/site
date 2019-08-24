@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import { Image, Link as A } from 'rebass'
 
-export default ({ size = 32, light = false, ...props }) => (
-  <Link href="/">
+export default ({ size = 50, light = false, ...props }) => (
+  <Link href="https://angelhacks.org">
     <A sx={{ cursor: 'pointer', lineHeight: 0 }}>
       <Image
         {...props}

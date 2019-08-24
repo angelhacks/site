@@ -2,7 +2,7 @@
   "name": "@angelhacks/site",
   "version": "1.0.0",
   "private": true,
-  "author": "Lachlan Campbell <lachlan@hackpenn.com>",
+  "author": "@lachlanjc and AngelHacks <hello@angelhacks.org>",
   "license": "MIT",
   "scripts": {
     "dev": "next",

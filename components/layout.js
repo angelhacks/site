@@ -56,9 +56,9 @@ export default props => {
           py: 3
         }}
       >
-        <Avatar light size={48} sx={{ mr: 1 }} />
+        <Avatar light size={60} sx={{ mr: 1 }} />
         <Link href="/">
-          <A variant="styles.navitem" sx={{ display: ['none', 'block'] }}>
+          <A variant="styles.navitem" sx={{ display: ['none', 'block'], fontWeight: 'mediumbold'}}>
             AngelHacks
           </A>
         </Link>

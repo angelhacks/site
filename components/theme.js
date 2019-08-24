@@ -29,6 +29,7 @@ export const palette = {
   altDark: '#004f58',
   accent: '#ff5a5f',
   accentLight: '#ff7e82',
+  accentWash: '#ffd4d5',
   accentDark: '#e00007',
   success: '#3fb34f',
   error: '#b23f42',
@@ -82,6 +83,7 @@ const theme = merge(base, {
   fontWeights: {
     body: '400',
     medium: '700',
+    mediumbold: '800',
     bold: '900'
   },
   letterSpacings: {
@@ -147,7 +149,7 @@ const theme = merge(base, {
       color: 'primary',
       cursor: 'pointer',
       ':hover, :focus': {
-        color: 'secondary'
+        color: 'alt'
       }
     },
     p: {
@@ -169,7 +171,8 @@ const theme = merge(base, {
       mx: [null, 1],
       ':focus, :hover, :active': {
         bg: 'sunken',
-        color: 'primary'
+        //color: 'primary'
+        color: 'alt'
       }
     }
   }
