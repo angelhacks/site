@@ -18,6 +18,24 @@ const data = {
       link: 'https://hackclub.com/bank',
       image:
         'https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fhackclub-bank.svg?v=1566159701206'
+    },
+    {
+      name: 'Frank.ly',
+      link: 'https://frank.ly',
+      image:
+        'https://angelhacks.org/static/frank-logo.png'
+    },
+    {
+      name: 'SpaceX',
+      link: 'https://spacex.com',
+      image:
+        'https://angelhacks.org/static/spacex-logo.png'
+    },
+    {
+      name: 'Balsamiq',
+      link: 'https://balsamiq.com',
+      image:
+        'https://angelhacks.org/static/balsamiq-logo.png'
     }
   ],
   additionalSupport: [
