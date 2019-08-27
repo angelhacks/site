@@ -134,9 +134,9 @@ export default props => {
               a: { fontSize: 1 }
             }}
           >
-            <Text sx={{ fontFamily: 'heading', fontSize: 0, color: 'inherit', variant="styles.navitem" }}>
+            <Text sx={{ fontFamily: 'heading', fontSize: 0, color: 'inherit' }}>
               AngelHacks, event run by Ad Astra Hack Club
-            </A>
+            </Text>
             <Text
               sx={{
                 color: 'muted',
