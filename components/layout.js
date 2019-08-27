@@ -134,14 +134,9 @@ export default props => {
               a: { fontSize: 1 }
             }}
           >
-            <A
-              href="https://lachlanjc.me"
-              target="_blank"
-              variant="styles.navitem"
-              sx={{ color: 'inherit', fontSize: 0 }}
-            >
+            <Text sx={{ fontFamily: 'heading', fontSize: 0, color: 'inherit' }}>
               AngelHacks, event run by Ad Astra Hack Club
-            </A>
+            </Text>
             <Text
               sx={{
                 color: 'muted',
