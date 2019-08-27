@@ -140,7 +140,7 @@ export default props => {
               variant="styles.navitem"
               sx={{ color: 'inherit', fontSize: 0 }}
             >
-              Site by @lachlanjc
+              AngelHacks, event run by Ad Astra Hack Club
             </A>
             <Text
               sx={{

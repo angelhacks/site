@@ -25,11 +25,18 @@ const data = {
       image:
         'https://angelhacks.org/static/frank-logo.png'
     },
+    /*
     {
       name: 'SpaceX',
       link: 'https://spacex.com',
       image:
         'https://angelhacks.org/static/spacex-logo.png'
+    },*/
+    {
+      name: 'Ad Astra',
+      link: 'https://adastraschool.org',
+      image:
+        'https://angelhacks.org/static/adastra.png'
     },
     {
       name: 'Balsamiq',
@@ -44,6 +51,12 @@ const data = {
       link: 'https://sketchapp.com/',
       image: 
         'https://angelhacks.org/static/sketch-logo.png'
+    },
+    {
+      name: 'Shawee',
+      link: 'https://shawee.io/',
+      image: 
+        'https://angelhacks.org/static/shawee-logo.png'
     }
   ]
 }
