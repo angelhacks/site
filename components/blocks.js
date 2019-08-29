@@ -81,7 +81,7 @@ export const Callout = props => (
   <Box
     {...props}
     sx={{
-      bg: 'elevated',
+      bg: 'cards',
       px: [3, 4],
       py: [2, 3, 4],
       borderRadius: 'extra',
@@ -164,6 +164,7 @@ export const Gallery = props => (
       gridGap: [3, 4, null, 5],
       width: '100%',
       px: [3, 4, null, 5],
+      mt: [3, 4, 5],
       mb: [3, 4, 5, 6],
       'p, li': {
         fontSize: 2
