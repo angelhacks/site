@@ -1,5 +1,5 @@
 import { Box, Flex, Text, Link as A } from 'rebass'
-import { Styled, useColorMode } from 'theme-ui'
+import { useColorMode } from 'theme-ui'
 import Link from 'next/link'
 import Icon from './icon'
 import Avatar from './avatar'
@@ -58,7 +58,10 @@ export default props => {
       >
         <Avatar light size={60} sx={{ mr: 1 }} />
         <Link href="/">
-          <A variant="styles.navitem" sx={{ display: ['none', 'block'], fontWeight: 'mediumbold'}}>
+          <A
+            variant="styles.navitem"
+            sx={{ display: ['none', 'block'], fontWeight: 'mediumbold' }}
+          >
             AngelHacks
           </A>
         </Link>
