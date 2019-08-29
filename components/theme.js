@@ -181,16 +181,15 @@ const theme = merge(base, {
       cursor: 'pointer',
       borderRadius: 'circle',
       fontWeight: 'medium',
-      fontSize: 3,
+      fontSize: 2,
       lineHeight: 'body',
       textDecoration: 'none',
       py: 1,
       px: [2, 3],
       mx: [null, 1],
+      transition: 'background .125s ease-in-out',
       ':focus, :hover, :active': {
-        bg: 'sunken',
-        //color: 'primary'
-        color: 'alt'
+        bg: 'sunken'
       }
     }
   }
