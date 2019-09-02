@@ -51,7 +51,6 @@ const data = {
     {
       name: 'Shawee',
       link: 'https://shawee.io/',
-<<<<<<< HEAD
       image: 
         'https://angelhacks.org/static/shawee-logo.png'
     },
@@ -72,9 +71,6 @@ const data = {
       link: 'https://desmos.com/',
       image: 
         'https://angelhacks.org/static/desmos-logo.png'
-=======
-      image: 'https://angelhacks.org/static/shawee-logo.png'
->>>>>>> a9a38e60d2aa14db9abac8eb327fb0504b23b371
     }
   ]
 }
