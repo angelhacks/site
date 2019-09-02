@@ -57,6 +57,24 @@ const data = {
       link: 'https://shawee.io/',
       image: 
         'https://angelhacks.org/static/shawee-logo.png'
+    },
+    {
+      name: 'Sashido',
+      link: 'https://sashido.io/',
+      image: 
+        'https://angelhacks.org/static/sashido-logo.png'
+    },
+    {
+      name: 'Bugsee',
+      link: 'https://bugsee.com/',
+      image: 
+        'https://angelhacks.org/static/bugsee-logo.png'
+    },
+    {
+      name: 'Desmos',
+      link: 'https://desmos.com/',
+      image: 
+        'https://angelhacks.org/static/desmos-logo.png'
     }
   ]
 }
