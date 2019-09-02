@@ -62,28 +62,24 @@ const theme = merge(base, {
     ...palette,
     text: palette.black,
     background: palette.snow,
-    elevated: palette.white,
+    cards: palette.white,
     muted: palette.muted,
     sunken: palette.smoke,
-    //bannerBG: palette.primary,
     bannerBG: palette.alt,
     bannerColor: palette.white,
     bannerColorAlt: palette.white,
     coolBg: palette.cool,
-    cards: palette.smoke,
     modes: {
       dark: {
         text: palette.white,
         background: palette.dark,
-        elevated: palette.darkless,
+        cards: palette.darkless,
         sunken: palette.black,
         primaryWash: '#3f3822',
         bannerBG: palette.darkless,
-        //bannerColor: palette.primary,
         bannerColor: palette.coolWash,
         bannerColorAlt: palette.white,
-        coolBg: palette.dark,
-        cards: palette.darkless,
+        coolBg: palette.dark
       }
     }
   },
@@ -144,13 +140,13 @@ const theme = merge(base, {
       lineHeight: 'heading'
     },
     card: {
-      bg: 'elevated',
+      bg: 'cards',
       p: [3, 4],
       borderRadius: 'extra',
       boxShadow: 'card'
     },
     sheet: {
-      bg: 'elevated',
+      bg: 'cards',
       borderRadius: 'extra',
       boxShadow: 'sheet',
       overflow: 'hidden'
@@ -181,16 +177,15 @@ const theme = merge(base, {
       cursor: 'pointer',
       borderRadius: 'circle',
       fontWeight: 'medium',
-      fontSize: 3,
+      fontSize: 2,
       lineHeight: 'body',
       textDecoration: 'none',
       py: 1,
       px: [2, 3],
       mx: [null, 1],
+      transition: 'background .125s ease-in-out',
       ':focus, :hover, :active': {
-        bg: 'sunken',
-        //color: 'primary'
-        color: 'alt'
+        bg: 'sunken'
       }
     }
   }
