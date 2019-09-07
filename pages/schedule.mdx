@@ -1,3 +1,4 @@
+import { Container, Gallery } from '../components/blocks'
 import { Header, Schedule } from '../components/blocks'
 
 <Header sx={{ bg: 'accent' }}>
@@ -9,13 +10,13 @@ import { Header, Schedule } from '../components/blocks'
 <Schedule>
 
 ## Saturday, October 26
-- **8:30am** 👋 Doors Open
-- **9:00am** 📢 Opening Ceremony
+- **9:00am** 👋 Doors Open
+- **9:10am** 📢 Opening Ceremony
 - **9:25am** 👩‍💻 Hacking Begins
-- **9:45am** 👥 Team Formation (optional)
-- **11:15am** 🧙 Workshop: Your First Website
+- **9:30am** 👥 Team Formation (optional)
+- **9:35am** 🧙 Workshop Block A: Your First Website, GitKraken, Artificial Intelligence
+- **11:00pm** 🕹 Workshop Block B: Intro to Game Dev
 - **12:20pm** 🍽️ Lunch
-- **2:30pm** 🕹 Workshop: Intro to Game Dev
 
 ## ...
 - **4:00pm** 🍦 Afternoon Snack
@@ -27,3 +28,19 @@ import { Header, Schedule } from '../components/blocks'
 - **9:45pm** 😭 Event Ends
 
 </Schedule>
+
+<Container 
+sx = {{
+    h1: {
+        color: 'primary',
+        fontSize: 5,
+        fontWeight: 'medium',
+    },
+    strong: {
+        color: 'alt'
+    }
+}}>
+
+# Workshop Levels
+There are different workshop levels based on your skill level. If you're a **Cherub** (beginner), take the classes designed for you to start your first project and learn new skills. If you're a **Angel** (intermediate), there are workshops to teach you some new tools and new methods to make stuff. Finally, if you're a **Archangel** (pro), we have a few workshops on AI and APIs that you might be interested in using. These workshops are designed to let you create a final project at the end of the day, but, if you're just interested in coming here to learn, we'll have support for that as well!
+</Container>
