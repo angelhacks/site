@@ -22,8 +22,7 @@ const data = {
     {
       name: 'Frank.ly',
       link: 'https://frank.ly',
-      image:
-        'https://angelhacks.org/static/frank-logo.png'
+      image: 'https://angelhacks.org/static/frank-logo.png'
     },
     /*
     {
@@ -35,28 +34,43 @@ const data = {
     {
       name: 'Ad Astra',
       link: 'https://adastraschool.org',
-      image:
-        'https://angelhacks.org/static/adastra.png'
+      image: 'https://angelhacks.org/static/adastra.png'
     },
     {
       name: 'Balsamiq',
       link: 'https://balsamiq.com',
-      image:
-        'https://angelhacks.org/static/balsamiq-logo.png'
+      image: 'https://angelhacks.org/static/balsamiq-logo.png'
     }
   ],
   additionalSupport: [
     {
       name: 'Sketch',
       link: 'https://sketchapp.com/',
-      image: 
-        'https://angelhacks.org/static/sketch-logo.png'
+      image: 'https://angelhacks.org/static/sketch-logo.png'
     },
     {
       name: 'Shawee',
       link: 'https://shawee.io/',
       image: 
         'https://angelhacks.org/static/shawee-logo.png'
+    },
+    {
+      name: 'Sashido',
+      link: 'https://sashido.io/',
+      image: 
+        'https://angelhacks.org/static/sashido-logo.png'
+    },
+    {
+      name: 'Bugsee',
+      link: 'https://bugsee.com/',
+      image: 
+        'https://angelhacks.org/static/bugsee-logo.png'
+    },
+    {
+      name: 'Desmos',
+      link: 'https://desmos.com/',
+      image: 
+        'https://angelhacks.org/static/desmos-logo.png'
     }
   ]
 }
