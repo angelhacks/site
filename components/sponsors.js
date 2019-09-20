@@ -71,6 +71,12 @@ const data = {
       link: 'https://desmos.com/',
       image: 
         'https://angelhacks.org/static/desmos-logo.png'
+    },
+    {
+      name: 'DeepAI',
+      link: 'https://deepai.org/',
+      image: 
+        'https://angelhacks.org/static/deepai-logo.png'
     }
   ]
 }
