@@ -104,7 +104,7 @@ export const List = props => (
         p: 0,
         m: 0,
         listStyle: 'none',
-        display: 'grid',
+        // display: 'grid',
         gridTemplateColumns: 'repeat(auto-fit, minmax(256px, 1fr))',
         gridGap: [3, 4]
       },
