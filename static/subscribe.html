@@ -1,79 +1,89 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-        <link rel="shortcut icon" type="image/png" href="http://angelhacks.org/static/logo.png"/>
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-            .title {
-                color: #ff5a5f;
-                font-size: 5em;
-                text-align: center;
-                font-weight: 900px;
-                margin-right: 4em;
-                margin-left: 4em;
-            }
-            .primary {
-                color: #ffb400;
-            }
-            .event {
-                font-size: 2em;
-                font-weight: 800;
-            }
-        </style>
-    </head>
-    <body>
-        <br><br>
-        <h1 class = "title">Thanks for signing up! Please fill out your information here as well, to receive updates and next steps!</h1>
-    <form style="padding: 20px; margin-left: 5em; margin-right: 5em;" action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="shortcut icon" type="image/png" href="http://angelhacks.org/static/logo.png" />
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .title {
+            color: #ff5a5f;
+            font-size: 5em;
+            text-align: center;
+            font-weight: 900px;
+            margin-right: 4em;
+            margin-left: 4em;
+        }
+
+        .primary {
+            color: #ffb400;
+        }
+
+        .event {
+            font-size: 2em;
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+    <br><br>
+    <h1 class="title">Thanks for signing up! Please fill out your information here as well, to receive updates and next
+        steps!</h1>
+    <form style="padding: 20px; margin-left: 5em; margin-right: 5em;" action="https://postal.hackclub.com/subscribe"
+        method="POST" accept-charset="utf-8">
         <div class="field">
             <label class="label">Name</label>
             <div class="control has-icons-left has-icons-right">
-                <input class = "input is-medium" type="text" name="name" id="name" placeholder="Claire Doe"/>
+                <input class="input is-medium" type="text" name="name" id="name" placeholder="Claire Doe" />
                 <span class="icon is-medium is-left">
-                <i class="fas fa-user"></i>
+                    <i class="fas fa-user"></i>
                 </span>
             </div>
-            </div>
-        <br/>
+        </div>
+        <br />
 
 
         <div class="field">
-            <label for="email">Email</label><br/>
+            <label for="email">Email</label><br />
             <div class="control has-icons-left has-icons-right">
-              <input class="input is-medium" type="email" name="email" id="email" placeholder="hello@angelhacks.org">
-              <span class="icon is-medium is-left">
-                <i class="fas fa-envelope"></i>
-              </span>
-              <span class="icon is-medium is-right">
-                <i class="fas fa-check"></i>
-              </span>
+                <input class="input is-medium" type="email" name="email" id="email" placeholder="hello@angelhacks.org">
+                <span class="icon is-medium is-left">
+                    <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-medium is-right">
+                    <i class="fas fa-check"></i>
+                </span>
             </div>
-          </div>
-          <br/>
-          <div style="display:none;">
-        <label for="hp">HP</label><br/>
-        <input class = "input" type="text" name="hp" id="hp"/>
         </div>
-        <input type="hidden" name="list" value="IMRQyhq7XjRoXh97o7Sy3Q"/>
-        <input type="hidden" name="subform" value="yes"/>
+        <br />
+        <div style="display:none;">
+            <label for="hp">HP</label><br />
+            <input class="input" type="text" name="hp" id="hp" />
+        </div>
+        <input type="hidden" name="list" value="IMRQyhq7XjRoXh97o7Sy3Q" />
+        <input type="hidden" name="subform" value="yes" />
         <br>
         <div class="field is-grouped is-grouped-centered">
             <p class="control">
-                    <input class = "button is-primary is-large" style="font-family: Nunito; font-weight: 800" type="submit" name="submit" id="submit"/>
+                <input class="button is-primary is-large" style="font-family: Nunito; font-weight: 800" type="submit"
+                    name="submit" id="submit" />
             </p>
         </div>
     </form>
     <section class="section">
         <div class="container">
-        <h1 class="title">Join our slack at <a src="bit.ly/angelhacks" style="color: #ffb400; text-decoration: underline; font-weight: bold;">bit.ly/angelhacks</a>!</h1>
-        <a class="button is-primary is-outlined is-medium is-centered has-addons" href="https://angelhacks.org">
-            <strong>back to site</strong>
-        </a>
+            <h1 class="title">Join our slack at <a src="bit.ly/angelhacks"
+                    style="color: #ffb400; text-decoration: underline; font-weight: bold;">bit.ly/angelhacks</a>!</h1>
+            <a class="button is-primary is-outlined is-medium is-centered has-addons" href="https://angelhacks.org">
+                <strong>back to site</strong>
+            </a>
         </div>
     </section>
+
 </html>
