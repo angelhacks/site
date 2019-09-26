@@ -40,6 +40,12 @@ const data = {
       name: 'Balsamiq',
       link: 'https://balsamiq.com',
       image: 'https://angelhacks.org/static/balsamiq-logo.png'
+    },
+    {
+      name: 'Zeit',
+      link: 'https://zeit.co/',
+      image: 
+        'https://angelhacks.org/static/zeit-logo.png'
     }
   ],
   additionalSupport: [
