@@ -46,7 +46,19 @@ const data = {
       link: 'https://zeit.co/',
       image: 
         'https://angelhacks.org/static/zeit-logo.png'
-    }
+    },
+    {
+      name: 'Repl.it',
+      link: 'https://repl.it/',
+      image: 
+        'https://angelhacks.org/static/replit-logo.png'
+    },
+    {
+      name: 'SpaceX',
+      link: 'https://spacex.com/',
+      image: 
+        'https://angelhacks.org/static/spacex-logo.png'
+    },
   ],
   additionalSupport: [
     {
