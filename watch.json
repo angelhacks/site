@@ -1,10 +1,10 @@
 {
   "install": {
-    "include": ["^package\\.json$"],
+    "include": ["package.json"],
     "exclude": []
   },
   "restart": {
-    "include": ["^\\.env$"],
+    "include": [".env"],
     "exclude": []
   },
   "noSavedEvents": true
