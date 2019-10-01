@@ -93,7 +93,7 @@ const data = {
   ]
 }
 
-const Base = styled(Box)
+const Base = styled(Box)`
   display: grid;
   grid-row-gap: ${theme.space[2]}px;
   grid-template-columns: repeat(
