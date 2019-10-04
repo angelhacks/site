@@ -24,13 +24,6 @@ const data = {
       link: 'https://frank.ly',
       image: 'https://angelhacks.org/static/frank-logo.png'
     },
-    /*
-    {
-      name: 'SpaceX',
-      link: 'https://spacex.com',
-      image:
-        'https://angelhacks.org/static/spacex-logo.png'
-    },*/
     {
       name: 'Ad Astra',
       link: 'https://adastraschool.org',
@@ -52,6 +45,12 @@ const data = {
       link: 'https://spacex.com/',
       image: 
         'https://angelhacks.org/static/spacex-logo.png'
+    },
+    {
+      name: 'Proctor & Gamble',
+      link: 'https://us.pg.com/',
+      image: 
+        'https://angelhacks.org/static/pg-logo.png'
     },
   ],
   additionalSupport: [
