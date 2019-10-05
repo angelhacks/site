@@ -94,6 +94,12 @@ const data = {
       link: 'https://wolframalpha.com/',
       image: 
         'https://angelhacks.org/static/wolfram-logo.png'
+    },
+    {
+      name: 'CloudSploit',
+      link: 'https://cloudsploit.com/',
+      image: 
+        'https://angelhacks.org/static/cloudsploit.png'
     }
   ]
 }
