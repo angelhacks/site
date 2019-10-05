@@ -88,6 +88,12 @@ const data = {
       link: 'https://deepai.org/',
       image: 
         'https://angelhacks.org/static/deepai-logo.png'
+    },
+    {
+      name: 'Wolfram',
+      link: 'https://wolframalpha.com/',
+      image: 
+        'https://angelhacks.org/static/wolfram-logo.png'
     }
   ]
 }
