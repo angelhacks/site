@@ -106,6 +106,12 @@ const data = {
       link: 'https://integral.studio/',
       image: 
         'https://angelhacks.org/static/integral-studio.png'
+    },
+    {
+      name: 'Sticker Mule',
+      link: 'https://stickermule.com/',
+      image: 
+        'https://angelhacks.org/static/stickermule-logo.png'
     }
   ]
 }
