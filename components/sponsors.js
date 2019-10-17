@@ -100,6 +100,12 @@ const data = {
       link: 'https://cloudsploit.com/',
       image: 
         'https://angelhacks.org/static/cloudsploit.png'
+    },
+    {
+      name: 'Integral Studio',
+      link: 'https://integral.studio/',
+      image: 
+        'https://angelhacks.org/static/integral-studio.png'
     }
   ]
 }
