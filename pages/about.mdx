@@ -12,7 +12,7 @@ import Photo from '../components/photo'
 width="narrow"
 sx={{
     h1: {
-        color: 'altDark',
+        color: 'darkless',
         fontSize: 5,
         fontWeight: 'mediumbold'
     }
@@ -20,16 +20,28 @@ sx={{
 
 # Venue
 
-</Container>
+The venue is graciously provided by Snapchat Inc., @606 Venice Blvd, Venice 90291.
 
+</Container>
 <Gallery>
+
+
 
 <Photo showAlt alt="We've got a garden! Just make sure you don't eat the tomatoes…" src="https://angelhacks.org/static/venue/outdoors1.jpg" />
 <Photo showAlt alt="The place where you'll spend the majority of your time hacking." src="https://angelhacks.org/static/venue/general.jpg" />
 
 </Gallery>
 
-<Container width="narrow">
+<Container width="narrow"
+  sx={{
+    h1: {
+      fontSize: 5,
+      fontWeight: 'bold'
+    },
+    strong: {
+      color: 'alt'
+    }
+  }}>
 
 # Themes
 
@@ -37,18 +49,22 @@ AngelHacks is dedicated to giving back to the community—and we do that in part
 
 </Container>
 
-<Gallery>
+<Gallery sx={{
+    '> div': {
+        bg: 'smoke'
+    },
+}}>
 
 <Box variant="card"
 sx={{
-        h2: {
-            color: 'success',
-        },
+    h2: {
+        color: 'accent',
+    },
     }}>
 
 ## Environment
 
-Make something that helps the environment. It may seem like a hard thing, but remember, the small things count! Ship projects that count someone's carbon emissions, or tell you the truth about each state's pollution regulations. 
+Make something that helps the environment. It may seem like a hard thing, but remember, the small things count! Ship projects that count someone's carbon emissions, or tell you the truth about each state's pollution regulations. Be creative -- what does the environment mean to you? It doesn't have to be just the greenery, it could be how other people interact, or how the people around you behave.
 
 </Box>
 
@@ -79,7 +95,12 @@ AI is an up and coming technology and everyone is hyped up about it. Create a ch
 </Box>
 
 </Gallery>
-<Container width="narrow">
+<Container width="narrow"
+    sx={{
+        h1: {
+            fontWeight:"bold"
+        }
+    }}>
 
 # We’re driven by a mission.
 
