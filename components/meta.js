@@ -66,7 +66,7 @@ export default ({
               '@type': 'PostalAddress',
               addressLocality: 'Los Angeles',
               addressRegion: 'CA',
-              postalCode: '90405',
+              postalCode: '90291',
               streetAddress: '606 Venice Blvd., Venice 90291'
             }
           },
