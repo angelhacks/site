@@ -67,7 +67,7 @@ export default ({
               addressLocality: 'Los Angeles',
               addressRegion: 'CA',
               postalCode: '90405',
-              streetAddress: '2772 Donald Douglas Loop N'
+              streetAddress: '606 Venice Blvd., Venice 90291'
             }
           },
           sponsor: {
