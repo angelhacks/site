@@ -52,6 +52,18 @@ const data = {
       image: 
         'https://angelhacks.org/static/pg-logo.png'
     },
+    {
+      name: 'Rolling Robots',
+      link: 'https://rollingrobots.com/',
+      image:
+        'https://angelhacks.org/static/rollingrobots.jpg'
+    },
+    {
+      name: 'GoGuardian',
+      link: 'https://www.goguardian.com/',
+      image:
+        'https://angelhacks.org/static/goguardian-logo.png'
+    },
   ],
   additionalSupport: [
     {
