@@ -124,6 +124,12 @@ const data = {
       link: 'https://stickermule.com/',
       image: 
         'https://angelhacks.org/static/stickermule-logo.png'
+    },
+    {
+      name: 'Areteem',
+      link: 'https://areteem.org/',
+      image: 
+        'https://angelhacks.org/static/areteem-logo.png'
     }
   ]
 }
