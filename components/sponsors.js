@@ -129,7 +129,7 @@ const data = {
       name: 'Areteem',
       link: 'https://areteem.org/',
       image: 
-        'https://angelhacks.org/static/areteem-logo.png'
+        'https://angelhacks.org/static/areteem-logo.jpg'
     }
   ]
 }
