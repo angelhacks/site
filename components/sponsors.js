@@ -64,6 +64,12 @@ const data = {
       image:
         'https://angelhacks.org/static/goguardian-logo.png'
     },
+    {
+      name: 'National Space Society',
+      link: 'https://space.nss.org/',
+      image:
+        'https://angelhacks.org/static/nss-logo.png'
+    }
   ],
   additionalSupport: [
     {
