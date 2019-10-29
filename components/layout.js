@@ -72,9 +72,6 @@ export default props => {
         <Link href="/register">
           <A variant="styles.navitem">Register</A>
         </Link>
-		<Link href="/attendees">
-          <A variant="styles.navitem">Attendees</A>
-        </Link>
         <Link href="/about">
           <A variant="styles.navitem">About</A>
         </Link>
