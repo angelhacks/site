@@ -22,120 +22,120 @@ const data = {
     {
       name: 'Frank.ly',
       link: 'https://frank.ly',
-      image: 'https://angelhacks.org/static/frank-logo.png'
+      image: 'https://angelhacks.org/public/frank-logo.png'
     },
     {
       name: 'Ad Astra',
       link: 'https://adastraschool.org',
-      image: 'https://angelhacks.org/static/adastra.png'
+      image: 'https://angelhacks.org/public/adastra.png'
     },
     {
       name: 'Balsamiq',
       link: 'https://balsamiq.com',
-      image: 'https://angelhacks.org/static/balsamiq-logo.png'
+      image: 'https://angelhacks.org/public/balsamiq-logo.png'
     },
     {
       name: 'Zeit',
       link: 'https://zeit.co/',
       image: 
-        'https://angelhacks.org/static/zeit-logo.png'
+        'https://angelhacks.org/public/zeit-logo.png'
     },
     {
       name: 'SpaceX',
       link: 'https://spacex.com/',
       image: 
-        'https://angelhacks.org/static/spacex-logo.png'
+        'https://angelhacks.org/public/spacex-logo.png'
     },
     {
       name: 'Proctor & Gamble',
       link: 'https://us.pg.com/',
       image: 
-        'https://angelhacks.org/static/pg-logo.png'
+        'https://angelhacks.org/public/pg-logo.png'
     },
     {
       name: 'Rolling Robots',
       link: 'https://rollingrobots.com/',
       image:
-        'https://angelhacks.org/static/rollingrobots.jpg'
+        'https://angelhacks.org/public/rollingrobots.jpg'
     },
     {
       name: 'GoGuardian',
       link: 'https://www.goguardian.com/',
       image:
-        'https://angelhacks.org/static/goguardian-logo.png'
+        'https://angelhacks.org/public/goguardian-logo.png'
     },
     {
       name: 'National Space Society',
       link: 'https://space.nss.org/',
       image:
-        'https://angelhacks.org/static/nss-logo.png'
+        'https://angelhacks.org/public/nss-logo.png'
     }
   ],
   additionalSupport: [
     {
       name: 'Sketch',
       link: 'https://sketchapp.com/',
-      image: 'https://angelhacks.org/static/sketch-logo.png'
+      image: 'https://angelhacks.org/public/sketch-logo.png'
     },
     {
       name: 'Shawee',
       link: 'https://shawee.io/',
       image: 
-        'https://angelhacks.org/static/shawee-logo.png'
+        'https://angelhacks.org/public/shawee-logo.png'
     },
     {
       name: 'Sashido',
       link: 'https://sashido.io/',
       image: 
-        'https://angelhacks.org/static/sashido-logo.png'
+        'https://angelhacks.org/public/sashido-logo.png'
     },
     {
       name: 'Bugsee',
       link: 'https://bugsee.com/',
       image: 
-        'https://angelhacks.org/static/bugsee-logo.png'
+        'https://angelhacks.org/public/bugsee-logo.png'
     },
     {
       name: 'Desmos',
       link: 'https://desmos.com/',
       image: 
-        'https://angelhacks.org/static/desmos-logo.png'
+        'https://angelhacks.org/public/desmos-logo.png'
     },
     {
       name: 'DeepAI',
       link: 'https://deepai.org/',
       image: 
-        'https://angelhacks.org/static/deepai-logo.png'
+        'https://angelhacks.org/public/deepai-logo.png'
     },
     {
       name: 'Wolfram',
       link: 'https://wolframalpha.com/',
       image: 
-        'https://angelhacks.org/static/wolfram-logo.png'
+        'https://angelhacks.org/public/wolfram-logo.png'
     },
     {
       name: 'CloudSploit',
       link: 'https://cloudsploit.com/',
       image: 
-        'https://angelhacks.org/static/cloudsploit.png'
+        'https://angelhacks.org/public/cloudsploit.png'
     },
     {
       name: 'Integral Studio',
       link: 'https://integral.studio/',
       image: 
-        'https://angelhacks.org/static/integral-studio.png'
+        'https://angelhacks.org/public/integral-studio.png'
     },
     {
       name: 'Sticker Mule',
       link: 'https://stickermule.com/',
       image: 
-        'https://angelhacks.org/static/stickermule-logo.png'
+        'https://angelhacks.org/public/stickermule-logo.png'
     },
     {
       name: 'Areteem',
       link: 'https://areteem.org/',
       image: 
-        'https://angelhacks.org/static/areteem-logo.jpg'
+        'https://angelhacks.org/public/areteem-logo.jpg'
     }
   ]
 }
